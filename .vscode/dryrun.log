@@ -1,5 +1,7 @@
+make --dry-run --always-make --keep-going --print-directory
 make: Entering directory '/home/abdi/Udaciy_DevOps_Microservices'
+# Create python virtualenv & source it
+# source ~/.devops/bin/activate
+python3 -m venv ~/.devops
 make: Leaving directory '/home/abdi/Udaciy_DevOps_Microservices'
  
-make: *** No targets specified and no makefile found.  Stop.
-
