@@ -1,14 +1,13 @@
 make all --print-data-base --no-builtin-variables --no-builtin-rules --question
-make: *** No rule to make target 'all'.  Stop.
-
 # GNU Make 4.2.1
 # Built for x86_64-pc-linux-gnu
 # Copyright (C) 1988-2016 Free Software Foundation, Inc.
 # License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
 # This is free software: you are free to change and redistribute it.
 # There is NO WARRANTY, to the extent permitted by law.
+ 
 
-# Make data base, printed on Sat Jul 23 18:46:55 2022
+# Make data base, printed on Mon Jul 25 18:49:25 2022
 
 # Variables
 
@@ -36,8 +35,8 @@ SHELL = /bin/sh
 VSCODE_NLS_CONFIG = {"locale":"en","availableLanguages":{}}
 # environment
 _ = /mnt/c/Users/gEeK/AppData/Local/Programs/Microsoft VS Code/bin/code
-# makefile
-MAKEFILE_LIST := 
+# makefile (from 'Makefile', line 1)
+MAKEFILE_LIST :=  Makefile
 # 'override' directive
 GNUMAKEFLAGS := 
 # environment
@@ -49,13 +48,15 @@ VSCODE_CWD = /mnt/c/Users/gEeK/AppData/Local/Programs/Microsoft VS Code
 # default
 MAKE_HOST := x86_64-pc-linux-gnu
 # environment
-PATH = /home/abdi/.vscode-server/bin/3b889b090b5ad5793f524b5d1d39fda662b96a2a/bin/remote-cli:/home/abdi/.local/bin:/home/abdi/.nvm/versions/node/v16.16.0/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/WindowsApps/CanonicalGroupLimited.Ubuntu20.04LTS_2004.4.5.0_x64__79rhkp1fndgsc:/mnt/c/Python310/Scripts/:/mnt/c/Python310/:/mnt/c/Program Files/Common Files/Oracle/Java/javapath:/mnt/c/Python39/Scripts/:/mnt/c/Python39/:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/Git/cmd:/mnt/c/Users/gEeK/Desktop/flutter/bin:/mnt/c/ProgramData/chocolatey/bin:/mnt/c/Program Files/MongoDB/Server/4.4/bin:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/c/Program Files/Android/Android Studio/jre/bin:/mnt/c/Users/gEeK/anaconda3/Scripts:/mnt/c/Program Files/Amazon/AWSCLI/bin/:/mnt/c/msys64:/mnt/c/msys64/usr/bin:/mnt/c/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/:/mnt/c/xampp/php:/mnt/c/ProgramData/ComposerSetup/bin:/mnt/c/Program Files/PuTTY/:/mnt/c/Program Files/Amazon/AWSCLIV2/:/mnt/c/Program Files/Docker/Docker/resources/bin:/mnt/c/ProgramData/DockerDesktop/version-bin:/mnt/c/Program Files/nodejs/:/mnt/c/Users/gEeK/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/gEeK/AppData/Local/GitHubDesktop/bin:/mnt/c/Users/gEeK/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/gEeK/AppData/Local/Programs/MiKTeX/miktex/bin/x64/:/mnt/c/Users/gEeK/AppData/Roaming/Composer/vendor/bin:/mnt/c/Python34/Scripts:/mnt/c/Users/gEeK/AppData/Roaming/npm:/snap/bin
+PATH = /home/abdi/.vscode-server/bin/3b889b090b5ad5793f524b5d1d39fda662b96a2a/bin/remote-cli:/home/abdi/nohadocker/local_env/env/bin:/home/abdi/.local/bin:/home/abdi/.nvm/versions/node/v16.16.0/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/WindowsApps/CanonicalGroupLimited.Ubuntu20.04LTS_2004.4.5.0_x64__79rhkp1fndgsc:/mnt/c/Python310/Scripts/:/mnt/c/Python310/:/mnt/c/Program Files/Common Files/Oracle/Java/javapath:/mnt/c/Python39/Scripts/:/mnt/c/Python39/:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/Git/cmd:/mnt/c/Users/gEeK/Desktop/flutter/bin:/mnt/c/ProgramData/chocolatey/bin:/mnt/c/Program Files/MongoDB/Server/4.4/bin:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/c/Program Files/Android/Android Studio/jre/bin:/mnt/c/Users/gEeK/anaconda3/Scripts:/mnt/c/Program Files/Amazon/AWSCLI/bin/:/mnt/c/msys64:/mnt/c/msys64/usr/bin:/mnt/c/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/:/mnt/c/xampp/php:/mnt/c/ProgramData/ComposerSetup/bin:/mnt/c/Program Files/PuTTY/:/mnt/c/Program Files/Amazon/AWSCLIV2/:/mnt/c/Program Files/Docker/Docker/resources/bin:/mnt/c/ProgramData/DockerDesktop/version-bin:/mnt/c/Program Files/nodejs/:/mnt/c/Users/gEeK/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/gEeK/AppData/Local/GitHubDesktop/bin:/mnt/c/Users/gEeK/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/gEeK/AppData/Local/Programs/MiKTeX/miktex/bin/x64/:/mnt/c/Users/gEeK/AppData/Roaming/Composer/vendor/bin:/mnt/c/Python34/Scripts:/mnt/c/Users/gEeK/AppData/Roaming/npm:/snap/bin
+# environment
+VIRTUAL_ENV = /home/abdi/nohadocker/local_env/env
 # environment
 NVM_BIN = /home/abdi/.nvm/versions/node/v16.16.0/bin
 # environment
 ELECTRON_RUN_AS_NODE = 1
 # environment
-VSCODE_IPC_HOOK_CLI = /tmp/vscode-ipc-88dadb0e-b977-4c82-b1b6-5e223f99299d.sock
+VSCODE_IPC_HOOK_CLI = /tmp/vscode-ipc-7eca4c39-7ff0-489b-9b7f-35e046941f9a.sock
 # default
 .FEATURES := target-specific order-only second-expansion else-if shortest-stem undefine oneshell archives jobserver output-sync check-symlink load
 # environment
@@ -67,7 +68,7 @@ PWD = /home/abdi/Udaciy_DevOps_Microservices
 # default
 .LOADED := 
 # environment
-WSL_INTEROP = /run/WSL/9_interop
+WSL_INTEROP = /run/WSL/30752_interop
 # environment
 VSCODE_AMD_ENTRYPOINT = vs/workbench/api/node/extensionHostProcess
 # environment
@@ -97,7 +98,7 @@ MAKE_VERSION := 4.2.1
 # environment
 USER = abdi
 # makefile
-.DEFAULT_GOAL := 
+.DEFAULT_GOAL := setup
 # environment
 NAME = Code
 # automatic
@@ -129,6 +130,8 @@ MAKEFILES :=
 # automatic
 <F = $(notdir $<)
 # environment
+PS1 = (env) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ 
+# environment
 LC_ALL = C
 # environment
 HOSTTYPE = x86_64
@@ -149,7 +152,7 @@ WSL_DISTRO_NAME = Ubuntu-20.04
 # environment
 MOTD_SHOWN = update-motd
 # variable set hash-table stats:
-# Load=68/1024=7%, Rehash=0, Collisions=4/90=4%
+# Load=70/1024=7%, Rehash=0, Collisions=4/98=4%
 
 # Pattern-specific Variable Values
 
@@ -157,9 +160,9 @@ MOTD_SHOWN = update-motd
 
 # Directories
 
-# . (device 2064, inode 12608): 10 files, no impossibilities.
+# . (device 2064, inode 12608): 16 files, no impossibilities.
 
-# 10 files, no impossibilities in 1 directories.
+# 16 files, no impossibilities in 1 directories.
 
 # Implicit Rules
 
@@ -167,26 +170,45 @@ MOTD_SHOWN = update-motd
 
 # Files
 
-# Not a target:
-all:
+setup:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 9):
+	# Create python virtualenv & source it
+	# source ~/.devops/bin/activate
+	python3 -m venv ~/.devops
+
+all: install lint test
 #  Command line target.
 #  Implicit rule search has been done.
 #  File does not exist.
+#  File has been updated.
+#  Needs to be updated (-q is set).
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/3=0%
+
+# Not a target:
+.SUFFIXES:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
 #  File has not been updated.
 
 # Not a target:
 Makefile:
 #  Implicit rule search has been done.
-#  File does not exist.
+#  Last modified 2022-07-24 20:48:11.4486702
 #  File has been updated.
-#  Failed to be updated.
+#  Successfully updated.
 
-# Not a target:
-makefile:
-#  Implicit rule search has been done.
-#  File does not exist.
-#  File has been updated.
-#  Failed to be updated.
+test:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 19):
+	# Additional, optional, tests could go here
+	#python -m pytest -vv --cov=myrepolib tests/*.py
+	#python -m pytest --nbval notebook.ipynb
 
 # Not a target:
 .DEFAULT:
@@ -194,27 +216,61 @@ makefile:
 #  Modification time never checked.
 #  File has not been updated.
 
-# Not a target:
-GNUmakefile:
-#  Implicit rule search has been done.
+lint:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 24):
+	# See local hadolint install instructions:   https://github.com/hadolint/hadolint
+	# This is linter for Dockerfiles
+	hadolint Dockerfile
+	# This is a linter for Python source code linter: https://www.pylint.org/
+	# This should be run from inside a virtualenv
+	pylint --disable=R,C,W1203 app.py
+
+install:
+#  Implicit rule search has not been done.
+#  Implicit/static pattern stem: ''
 #  File does not exist.
 #  File has been updated.
-#  Failed to be updated.
+#  Needs to be updated (-q is set).
+# automatic
+# @ := install
+# automatic
+# % := 
+# automatic
+# * := 
+# automatic
+# + := 
+# automatic
+# | := 
+# automatic
+# < := 
+# automatic
+# ^ := 
+# automatic
+# ? := 
+# variable set hash-table stats:
+# Load=8/32=25%, Rehash=0, Collisions=1/11=9%
+#  recipe to execute (from 'Makefile', line 14):
+	# This should be run from inside a virtualenv
+	pip install --upgrade pip &&\
+		pip install -r requirements.txt
 
 # files hash-table stats:
-# Load=6/1024=1%, Rehash=0, Collisions=0/15=0%
+# Load=8/1024=1%, Rehash=0, Collisions=0/23=0%
 # VPATH Search Paths
 
 # No 'vpath' search paths.
 
 # No general ('VPATH' variable) search path.
 
-# strcache buffers: 1 (0) / strings = 18 / storage = 213 B / avg = 11 B
-# current buf: size = 8162 B / used = 213 B / count = 18 / avg = 11 B
+# strcache buffers: 1 (0) / strings = 25 / storage = 257 B / avg = 10 B
+# current buf: size = 8162 B / used = 257 B / count = 25 / avg = 10 B
 
-# strcache performance: lookups = 21 / hit rate = 14%
+# strcache performance: lookups = 39 / hit rate = 35%
 # hash-table stats:
-# Load=18/8192=0%, Rehash=0, Collisions=1/21=5%
-# Finished Make data base on Sat Jul 23 18:46:55 2022
+# Load=25/8192=0%, Rehash=0, Collisions=1/39=3%
+# Finished Make data base on Mon Jul 25 18:49:25 2022
 
  
