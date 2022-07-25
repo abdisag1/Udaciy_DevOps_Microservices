@@ -45,6 +45,23 @@ More details on the project rubric can be found [here](https://review.udacity.co
 * Standalone:  `python app.py`
 * Run in Docker:  `./run_docker.sh`
 * Run in Kubernetes:  `./run_kubernetes.sh`
+###  Run a Container & Make a Prediction
+
+-   Build the docker image from the Dockerfile; it is recommended that you use an optional --tag parameter as described in the build documentation.
+-   List the created docker images (for logging purposes).
+-   Run the containerized Flask app; publish the container’s port (`80`) to a host port (`8000`).
+
+Run the container using the `run_docker.sh` script created before following the steps above:
+
+```sh
+$ . ./run_docker.sh # Check the `Workarounds` section if you want to get more information about this.
+```
+
+After running the container (docker app) we can able to run the prediction using the `make_prediction.sh` script:
+
+```sh
+$ . ./make_prediction.sh # Don't forget run the container before
+```
 
 ### Make Prediction
 
@@ -56,4 +73,11 @@ More details on the project rubric can be found [here](https://review.udacity.co
 * Setup and Configure Kubernetes locally
 * Create Flask app in Container
 * Run via kubectl
+### Configure Kubernetes to Run Locally
+
+-   [Install Kubernetes](https://kubernetes.io/docs/tasks/tools/install-kubectl/#install-kubectl-on-linux)
+-   [Install Minikube](https://kubernetes.io/docs/tasks/tools/install-minikube/)
+
+> **Note:** Check the `Workarounds` section for common issues.
+
 
